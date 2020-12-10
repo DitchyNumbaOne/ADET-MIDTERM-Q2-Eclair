@@ -1,6 +1,7 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
+    @* mathew and benedict in designing*@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - UniqueMvc</title>
@@ -8,45 +9,43 @@
     <link rel="stylesheet" href="~/css/lux.css" />
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet"> <!--eto yung link ng font sa "Eclair" natin-->
     <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet"><!--eto yung link ng font sa lahat-->
-    @* mathew
-            <style>
-                .DaBody {
-                    background-color: #65CCB8;
-                    font-family: 'Shadows Into Light', cursive;
-                    height: 100%;
-                    display: block;
-                }
+
+    <style>
+        .DaBody {
+            background-color: #65CCB8;
+            font-family: 'Shadows Into Light', cursive;
+            height: 100%;
+            display: block;
+        }
 
 
-                .containerTo {
-                    background-color: #3DA591;
-                }
+        .containerTo {
+            background-color: #3DA591;
+        }
 
-                .container .navbar-brand {
-                    font-family: 'Indie Flower', cursive;
-                    color: whitesmoke;
-                    font-size: 20px;
-                    position: relative;
-                    left: 20px;
-                    top: 0;
-                }
+        .container .navbar-brand {
+            font-family: 'Indie Flower', cursive;
+            color: whitesmoke;
+            font-size: 20px;
+            position: relative;
+            left: 20px;
+            top: 0;
+        }
 
-                .navbar-collapse .navbar-nav {
-                    color: whitesmoke;
-                    position: relative;
-                    right: 0;
-                    top: 0;
-                }
+        .navbar-collapse .navbar-nav {
+            color: whitesmoke;
+            position: relative;
+            right: 0;
+            top: 0;
+        }
 
-                .navbar a:hover {
-                    background-color: #dc8b0c;
-                    color: #dc8b0c;
-                }
+        .navbar a:hover {
+            background-color: #dc8b0c;
+            color: #dc8b0c;
+        }
+    </style>
 
-
-            </style>
-
-        </head>
+</head>
 
         <body class="DaBody">
 
@@ -102,6 +101,5 @@
             <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
             <script src="~/js/site.js" asp-append-version="true"></script>
             @RenderSection("Scripts", required: false)
-    *@
     </body>
 </html>
